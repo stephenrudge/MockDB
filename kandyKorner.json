@@ -1,0 +1,94 @@
+{
+    "users": [{
+        "id":1,
+        "fullName": "Stephen",
+        "email": "stephen@gmail.com",
+        "isStaff": true
+    },
+    {
+        "id":2,
+        "name": "Holly",
+        "email": "holly@gmail.com",
+        "isStaff": true
+    },
+    {
+        "id":3,
+        "name": "Brad",
+        "email": "brad@gmail.com",
+        "isStaff": false
+    },
+    {
+        "id":4,
+        "name": "Josh",
+        "email": "Josh@gmail.com",
+        "isStaff": false
+    }],
+    "customers": [{
+        "id": 1,
+        "name": "Mason",
+        "email": "mason@gmail.com",
+        "loyaltyNum": 12345
+        }
+],
+    "employees": [{
+        "id":1,
+        "name": "Stephen",
+        "email": "stephen@gmail.com",
+        "isStaff": true,
+        "payRate": 0,
+        "startDate": 0,
+        "storeNum": 0
+    }
+],
+    "locations": [{
+        "id":1,
+        "address": "1600 Pennsylvania Avenue NW, Washington, DC 20500",
+        "squareFootage":55000
+    },
+    {
+        "id":2,
+        "address": "1 Terminal Dr, Nashville, TN 37214",
+        "squareFootage":1000000
+    }
+],
+    "products": [{
+        "id":1,
+        "name": "Jolly Rancher",
+        "productTypesId":1,
+        "price":0 
+    },
+    {
+        "id":2,
+        "name": "Kit Kat",
+        "productTypesId":2,
+        "price":2.50 
+    },
+    {
+        "id":3,
+        "name": "Gummy Worms",
+        "productTypesId":3,
+        "price":1.50 
+    }
+],
+    "productTypes": [{  
+        "id":1,
+        "type": "Hard Candies"
+    },
+    {
+        "id":2,
+        "type":"Chocolate"
+    },
+    {
+        "id":3,
+        "type":"Gummies"
+    }
+],
+    "purchases": [{
+        "id":1,
+        "transactionId":0, 
+        "customerId": 0,
+        "product":"",
+        "howMany":0
+    }]
+
+}

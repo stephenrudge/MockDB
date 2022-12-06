@@ -1,0 +1,19 @@
+{
+  "tally": [
+    {
+      "id": 1,
+      "catVote": 1,
+      "dogVote": 0
+    }
+  ],
+  "users": [
+    {
+      "id":1,
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin1234_"
+}],
+    
+  "dogObj": [],
+  "catObj": []
+}
